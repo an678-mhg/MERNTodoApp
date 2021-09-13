@@ -1,4 +1,4 @@
-export const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000/api' : ''
+export const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000/api' : 'https://fierce-dawn-65030.herokuapp.com/api'
 export const LOCALSTRORAGE_TOKEN = 'LOCALSTRORAGE_TOKEN'
 export const POST_LOADED_SUCCESS = 'POST_LOADED_SUCCESS'
 export const POST_LOADED_FAIL = 'POST_LOADED_FAIL'
